@@ -265,7 +265,7 @@
 
 "use client";
 import React, { useState } from "react";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import Image from "next/image";
 import axios from "axios";
 import toast from "react-hot-toast";
